@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEB1FE491CAE516C0014E3D1 /* LZEmoticonPackageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FE481CAE516C0014E3D1 /* LZEmoticonPackageModel.m */; };
+		EEB1FE4C1CAE555A0014E3D1 /* LZConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FE4B1CAE555A0014E3D1 /* LZConst.m */; };
+		EEB1FE4F1CAE5CF80014E3D1 /* LZEmoticonPackageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FE4E1CAE5CF80014E3D1 /* LZEmoticonPackageManager.m */; };
+		EEB1FE521CAE69E20014E3D1 /* LZEmoticonKeyboardPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FE511CAE69E20014E3D1 /* LZEmoticonKeyboardPageCell.m */; };
+		EEB1FE551CAE6D760014E3D1 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FE541CAE6D760014E3D1 /* UIButton+Extension.m */; };
+		EECC52321CAE093E0051B3F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EECC52311CAE093E0051B3F2 /* main.m */; };
+		EECC52351CAE093E0051B3F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EECC52341CAE093E0051B3F2 /* AppDelegate.m */; };
+		EECC52381CAE093E0051B3F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EECC52371CAE093E0051B3F2 /* ViewController.m */; };
+		EECC523B1CAE093E0051B3F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECC52391CAE093E0051B3F2 /* Main.storyboard */; };
+		EECC523D1CAE093E0051B3F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECC523C1CAE093E0051B3F2 /* Assets.xcassets */; };
+		EECC52401CAE093E0051B3F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECC523E1CAE093E0051B3F2 /* LaunchScreen.storyboard */; };
+		EECC524E1CAE09E70051B3F2 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EECC524B1CAE09E60051B3F2 /* Emoticons.bundle */; };
+		EECC524F1CAE09E70051B3F2 /* LZEmoticonToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECC524D1CAE09E60051B3F2 /* LZEmoticonToolBar.xib */; };
+		EECC52521CAE0A6A0051B3F2 /* LZEmoticonToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EECC52511CAE0A6A0051B3F2 /* LZEmoticonToolBar.m */; };
+		EECC52551CAE178D0051B3F2 /* LZEmoticonKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = EECC52541CAE178D0051B3F2 /* LZEmoticonKeyboard.m */; };
+		EECC52591CAE271B0051B3F2 /* LZEmoticonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EECC52581CAE271B0051B3F2 /* LZEmoticonModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEB1FE471CAE516C0014E3D1 /* LZEmoticonPackageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZEmoticonPackageModel.h; sourceTree = "<group>"; };
+		EEB1FE481CAE516C0014E3D1 /* LZEmoticonPackageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZEmoticonPackageModel.m; sourceTree = "<group>"; };
+		EEB1FE4A1CAE55460014E3D1 /* LZConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZConst.h; sourceTree = "<group>"; };
+		EEB1FE4B1CAE555A0014E3D1 /* LZConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZConst.m; sourceTree = "<group>"; };
+		EEB1FE4D1CAE5CF80014E3D1 /* LZEmoticonPackageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZEmoticonPackageManager.h; sourceTree = "<group>"; };
+		EEB1FE4E1CAE5CF80014E3D1 /* LZEmoticonPackageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZEmoticonPackageManager.m; sourceTree = "<group>"; };
+		EEB1FE501CAE69E20014E3D1 /* LZEmoticonKeyboardPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZEmoticonKeyboardPageCell.h; sourceTree = "<group>"; };
+		EEB1FE511CAE69E20014E3D1 /* LZEmoticonKeyboardPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZEmoticonKeyboardPageCell.m; sourceTree = "<group>"; };
+		EEB1FE531CAE6D760014E3D1 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		EEB1FE541CAE6D760014E3D1 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		EECC522D1CAE093E0051B3F2 /* OCemotionsKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCemotionsKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECC52311CAE093E0051B3F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EECC52331CAE093E0051B3F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EECC52341CAE093E0051B3F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EECC52361CAE093E0051B3F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EECC52371CAE093E0051B3F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EECC523A1CAE093E0051B3F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EECC523C1CAE093E0051B3F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EECC523F1CAE093E0051B3F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EECC52411CAE093E0051B3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECC524B1CAE09E60051B3F2 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		EECC524D1CAE09E60051B3F2 /* LZEmoticonToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZEmoticonToolBar.xib; sourceTree = "<group>"; };
+		EECC52501CAE0A6A0051B3F2 /* LZEmoticonToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZEmoticonToolBar.h; sourceTree = "<group>"; };
+		EECC52511CAE0A6A0051B3F2 /* LZEmoticonToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZEmoticonToolBar.m; sourceTree = "<group>"; };
+		EECC52531CAE178D0051B3F2 /* LZEmoticonKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZEmoticonKeyboard.h; sourceTree = "<group>"; };
+		EECC52541CAE178D0051B3F2 /* LZEmoticonKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZEmoticonKeyboard.m; sourceTree = "<group>"; };
+		EECC52561CAE18070051B3F2 /* LZDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDefine.h; sourceTree = "<group>"; };
+		EECC52571CAE271B0051B3F2 /* LZEmoticonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZEmoticonModel.h; sourceTree = "<group>"; };
+		EECC52581CAE271B0051B3F2 /* LZEmoticonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZEmoticonModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EECC522A1CAE093E0051B3F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EECC52241CAE093E0051B3F2 = {
+			isa = PBXGroup;
+			children = (
+				EECC522F1CAE093E0051B3F2 /* OCemotionsKeyboard */,
+				EECC522E1CAE093E0051B3F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EECC522E1CAE093E0051B3F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EECC522D1CAE093E0051B3F2 /* OCemotionsKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EECC522F1CAE093E0051B3F2 /* OCemotionsKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EECC52471CAE09E60051B3F2 /* LZEmoticonKeyboard */,
+				EECC52331CAE093E0051B3F2 /* AppDelegate.h */,
+				EECC52341CAE093E0051B3F2 /* AppDelegate.m */,
+				EECC52361CAE093E0051B3F2 /* ViewController.h */,
+				EECC52371CAE093E0051B3F2 /* ViewController.m */,
+				EECC52391CAE093E0051B3F2 /* Main.storyboard */,
+				EECC523C1CAE093E0051B3F2 /* Assets.xcassets */,
+				EECC523E1CAE093E0051B3F2 /* LaunchScreen.storyboard */,
+				EECC52411CAE093E0051B3F2 /* Info.plist */,
+				EECC52301CAE093E0051B3F2 /* Supporting Files */,
+			);
+			path = OCemotionsKeyboard;
+			sourceTree = "<group>";
+		};
+		EECC52301CAE093E0051B3F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EECC52311CAE093E0051B3F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EECC52471CAE09E60051B3F2 /* LZEmoticonKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EECC524A1CAE09E60051B3F2 /* Resource */,
+				EECC52481CAE09E60051B3F2 /* Extension */,
+				EECC52491CAE09E60051B3F2 /* Model */,
+				EECC524C1CAE09E60051B3F2 /* View */,
+			);
+			path = LZEmoticonKeyboard;
+			sourceTree = "<group>";
+		};
+		EECC52481CAE09E60051B3F2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1FE4A1CAE55460014E3D1 /* LZConst.h */,
+				EEB1FE4B1CAE555A0014E3D1 /* LZConst.m */,
+				EECC52561CAE18070051B3F2 /* LZDefine.h */,
+				EEB1FE531CAE6D760014E3D1 /* UIButton+Extension.h */,
+				EEB1FE541CAE6D760014E3D1 /* UIButton+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EECC52491CAE09E60051B3F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EECC52571CAE271B0051B3F2 /* LZEmoticonModel.h */,
+				EECC52581CAE271B0051B3F2 /* LZEmoticonModel.m */,
+				EEB1FE471CAE516C0014E3D1 /* LZEmoticonPackageModel.h */,
+				EEB1FE481CAE516C0014E3D1 /* LZEmoticonPackageModel.m */,
+				EEB1FE4D1CAE5CF80014E3D1 /* LZEmoticonPackageManager.h */,
+				EEB1FE4E1CAE5CF80014E3D1 /* LZEmoticonPackageManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EECC524A1CAE09E60051B3F2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EECC524B1CAE09E60051B3F2 /* Emoticons.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EECC524C1CAE09E60051B3F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EECC52531CAE178D0051B3F2 /* LZEmoticonKeyboard.h */,
+				EECC52541CAE178D0051B3F2 /* LZEmoticonKeyboard.m */,
+				EEB1FE501CAE69E20014E3D1 /* LZEmoticonKeyboardPageCell.h */,
+				EEB1FE511CAE69E20014E3D1 /* LZEmoticonKeyboardPageCell.m */,
+				EECC52501CAE0A6A0051B3F2 /* LZEmoticonToolBar.h */,
+				EECC52511CAE0A6A0051B3F2 /* LZEmoticonToolBar.m */,
+				EECC524D1CAE09E60051B3F2 /* LZEmoticonToolBar.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EECC522C1CAE093E0051B3F2 /* OCemotionsKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECC52441CAE093E0051B3F2 /* Build configuration list for PBXNativeTarget "OCemotionsKeyboard" */;
+			buildPhases = (
+				EECC52291CAE093E0051B3F2 /* Sources */,
+				EECC522A1CAE093E0051B3F2 /* Frameworks */,
+				EECC522B1CAE093E0051B3F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCemotionsKeyboard;
+			productName = OCemotionsKeyboard;
+			productReference = EECC522D1CAE093E0051B3F2 /* OCemotionsKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EECC52251CAE093E0051B3F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LZING;
+				TargetAttributes = {
+					EECC522C1CAE093E0051B3F2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EECC52281CAE093E0051B3F2 /* Build configuration list for PBXProject "OCemotionsKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EECC52241CAE093E0051B3F2;
+			productRefGroup = EECC522E1CAE093E0051B3F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EECC522C1CAE093E0051B3F2 /* OCemotionsKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EECC522B1CAE093E0051B3F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECC524F1CAE09E70051B3F2 /* LZEmoticonToolBar.xib in Resources */,
+				EECC52401CAE093E0051B3F2 /* LaunchScreen.storyboard in Resources */,
+				EECC524E1CAE09E70051B3F2 /* Emoticons.bundle in Resources */,
+				EECC523D1CAE093E0051B3F2 /* Assets.xcassets in Resources */,
+				EECC523B1CAE093E0051B3F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EECC52291CAE093E0051B3F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECC52381CAE093E0051B3F2 /* ViewController.m in Sources */,
+				EEB1FE4C1CAE555A0014E3D1 /* LZConst.m in Sources */,
+				EECC52521CAE0A6A0051B3F2 /* LZEmoticonToolBar.m in Sources */,
+				EECC52351CAE093E0051B3F2 /* AppDelegate.m in Sources */,
+				EEB1FE4F1CAE5CF80014E3D1 /* LZEmoticonPackageManager.m in Sources */,
+				EECC52591CAE271B0051B3F2 /* LZEmoticonModel.m in Sources */,
+				EECC52551CAE178D0051B3F2 /* LZEmoticonKeyboard.m in Sources */,
+				EEB1FE551CAE6D760014E3D1 /* UIButton+Extension.m in Sources */,
+				EEB1FE521CAE69E20014E3D1 /* LZEmoticonKeyboardPageCell.m in Sources */,
+				EECC52321CAE093E0051B3F2 /* main.m in Sources */,
+				EEB1FE491CAE516C0014E3D1 /* LZEmoticonPackageModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EECC52391CAE093E0051B3F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECC523A1CAE093E0051B3F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EECC523E1CAE093E0051B3F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECC523F1CAE093E0051B3F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EECC52421CAE093E0051B3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EECC52431CAE093E0051B3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EECC52451CAE093E0051B3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OCemotionsKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZING.OCemotionsKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EECC52461CAE093E0051B3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OCemotionsKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZING.OCemotionsKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EECC52281CAE093E0051B3F2 /* Build configuration list for PBXProject "OCemotionsKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECC52421CAE093E0051B3F2 /* Debug */,
+				EECC52431CAE093E0051B3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECC52441CAE093E0051B3F2 /* Build configuration list for PBXNativeTarget "OCemotionsKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECC52451CAE093E0051B3F2 /* Debug */,
+				EECC52461CAE093E0051B3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EECC52251CAE093E0051B3F2 /* Project object */;
+}
